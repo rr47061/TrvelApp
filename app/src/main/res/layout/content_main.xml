@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#61c6e7"
+    android:paddingTop="50dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:onClick="fun">
+
+    <LinearLayout
+        android:layout_height="0sp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="#FF7043"
+        android:padding="15sp">
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="#d1f106"
+            android:layout_marginRight="3sp" >
+            <ImageView
+                android:layout_width="121dp"
+                android:layout_height="100dp"
+                android:paddingLeft="40sp"
+                android:paddingTop="10sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/spottrain" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="spottrain"
+                android:layout_marginLeft="20sp"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="#be7db9"
+            android:layout_marginLeft="10sp">
+            <ImageView
+                android:layout_width="121dp"
+                android:layout_height="100dp"
+                android:paddingLeft="40sp"
+                android:paddingTop="10sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/trainbetween" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50sp"
+                android:text="train between"
+                android:textColor="#f9ecf9"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0sp"
+        android:background="#7CB342"
+        android:padding="10sp">
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="#dc0db6"
+            android:layout_marginRight="3sp"
+            >
+            <ImageView
+                android:layout_width="121dp"
+                android:layout_height="100dp"
+                android:paddingLeft="40sp"
+                android:paddingTop="10sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/pnr" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pnr status"
+                android:layout_marginLeft="45sp"
+                android:textSize="25sp"
+
+                android:textColor="#000000"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="#da0303"
+            android:layout_marginLeft="10sp">
+            <ImageView
+                android:layout_width="121dp"
+                android:layout_height="100dp"
+                android:paddingLeft="40sp"
+                android:paddingTop="10sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/availseat" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="seat availability"
+                android:layout_marginLeft="30sp"
+                android:textSize="25sp"
+                android:textColor="#f9ecf9"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="0sp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="#FF7043"
+        android:padding="15sp">
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="#d1f106"
+            android:layout_marginRight="3sp" >
+            <ImageView
+                android:layout_width="121dp"
+                android:layout_height="100dp"
+                android:paddingLeft="40sp"
+                android:paddingTop="10sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/alarm" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set Alarm"
+                android:layout_marginLeft="20sp"
+                android:textSize="20sp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="#be7db9"
+            android:layout_marginLeft="10sp">
+            <ImageView
+                android:layout_width="121dp"
+                android:layout_height="100dp"
+                android:paddingLeft="40sp"
+                android:paddingTop="10sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/trainfares" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50sp"
+                android:text="Train Fare"
+                android:textColor="#f9ecf9"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0sp"
+        android:background="#74deba"
+        android:orientation="horizontal"
+        android:padding="15sp">
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="3sp"
+            android:layout_weight="1"
+            android:background="#b9abaa"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="121dp"
+                android:layout_height="100dp"
+                android:paddingLeft="40sp"
+                android:paddingTop="10sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/calculatepenalty" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancelled Train"
+                android:layout_marginLeft="35sp"
+                android:textSize="20sp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="3sp"
+            android:layout_weight="1"
+            android:background="#b9abaa"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="121dp"
+                android:layout_height="100dp"
+                android:paddingLeft="40sp"
+                android:paddingTop="10sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/calculatepenalty" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reschuled Train"
+                android:layout_marginLeft="35sp"
+                android:textSize="20sp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0sp"
+        android:background="#c3db36"
+        android:orientation="horizontal"
+        android:padding="15sp">
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="3sp"
+            android:layout_weight="1"
+            android:background="#b9abaa"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="121dp"
+                android:layout_height="100dp"
+                android:paddingLeft="40sp"
+                android:paddingTop="10sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/calculatepenalty" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penalty"
+                android:layout_marginLeft="35sp"
+                android:textSize="20sp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="3sp"
+            android:layout_weight="1"
+            android:background="#c87e61"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="121dp"
+                android:layout_height="100dp"
+                android:paddingLeft="40sp"
+                android:paddingTop="10sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/calculatepenalty" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Train Route"
+                android:layout_marginLeft="35sp"
+                android:textSize="20sp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0sp"
+        android:background="#0bba14"
+        android:orientation="horizontal"
+        android:padding="15sp">
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="3sp"
+            android:layout_weight="1"
+            android:background="#b9abaa"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="121dp"
+                android:layout_height="100dp"
+                android:paddingLeft="40sp"
+                android:paddingTop="10sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/calculatepenalty" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Train AutoComplete"
+                android:layout_marginLeft="35sp"
+                android:textSize="20sp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="3sp"
+            android:layout_weight="1"
+            android:background="#7494d4"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="121dp"
+                android:layout_height="100dp"
+                android:paddingLeft="40sp"
+                android:paddingTop="10sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/calculatepenalty" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Station AutoComplete"
+                android:layout_marginLeft="35sp"
+                android:textSize="20sp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
