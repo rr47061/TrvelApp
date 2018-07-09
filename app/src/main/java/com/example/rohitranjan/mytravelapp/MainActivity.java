@@ -53,6 +53,11 @@ public class MainActivity extends AppCompatActivity
         startActivity(it);
 
     }
+    public void gettrain(View view)
+    {
+        Intent intent = new Intent(this,Train_between_stn.class);
+        startActivity(intent);
+    }
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

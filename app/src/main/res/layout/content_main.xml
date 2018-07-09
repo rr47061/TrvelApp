@@ -10,7 +10,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:onClick="fun">
+    >
 
     <LinearLayout
         android:layout_height="0sp"
@@ -25,7 +25,8 @@
             android:orientation="vertical"
             android:layout_weight="1"
             android:background="#d1f106"
-            android:layout_marginRight="3sp" >
+            android:layout_marginRight="3sp"
+            android:onClick="fun">
             <ImageView
                 android:layout_width="121dp"
                 android:layout_height="100dp"
@@ -48,7 +49,8 @@
             android:orientation="vertical"
             android:layout_weight="1"
             android:background="#be7db9"
-            android:layout_marginLeft="10sp">
+            android:layout_marginLeft="10sp"
+            android:onClick="gettrain">
             <ImageView
                 android:layout_width="121dp"
                 android:layout_height="100dp"
@@ -119,7 +121,7 @@
                 android:layout_height="wrap_content"
                 android:text="seat availability"
                 android:layout_marginLeft="30sp"
-                android:textSize="25sp"
+                android:textSize="25dp"
                 android:textColor="#f9ecf9"/>
         </LinearLayout>
     </LinearLayout>

@@ -19,7 +19,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".get_pnr_input"></activity>
+        <activity android:name=".get_pnr_input" />
+        <activity android:name=".show_pnr" />
+        <activity android:name=".Train_between_stn" />
+        <activity android:name=".GetTrainDisplay"></activity>
     </application>
 
 </manifest>
